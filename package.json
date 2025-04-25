@@ -1,0 +1,33 @@
+{
+  "name": "forta-flashloan-AAVE-detector",
+  "version": "1.0.1",
+  "description": "A library for forta agents that detects if a transaction event on AAVE protocol contains a flashloan",
+  "main": "src/flashloan-detector.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "forta",
+    "agent",
+    "flashloan"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceontech/Forta-Flashloan-Detector-Bot-on-AAVE-protocol.git"
+  },
+  "author": "Marcel Clarembaux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marceontech/Forta-Flashloan-Detector-Bot-on-AAVE-protocol"
+  },
+  "homepage": "https://github.com/LimeChain/forta-flashloan-detector#readme",
+  "dependencies": {
+    "forta-agent": "^0.0.41"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "^27.0.6"
+  }
+}
