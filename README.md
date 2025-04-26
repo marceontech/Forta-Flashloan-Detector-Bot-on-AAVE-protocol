@@ -17,15 +17,15 @@ This package depends on the `forta-agent` package.
 Use the node package manager npm to add the library to your project:
 
 ```
-$ npm install forta-flashloan-detector-bot-on-aave-protocol
+$ npm install forta-flashloan-detector
 ```
 
 ## Usage
 
-Import the forta-flashloan-detector-bot-on-aave-protocol library into a JavaScript file like this:
+Import the forta-flashloan-detector library into a JavaScript file like this:
 
 ```js
-const FlashloanDetector = require('forta-flashloan-detector-bot-on-aave-protocol');
+const FlashloanDetector = require('forta-flashloan-detector');
 ```
 
 Specify the protocols you want to support (in this case AAVE, but if you don't specify any protocol the detector will support all included in the list):
